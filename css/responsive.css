@@ -1,0 +1,159 @@
+/* ==========================
+   DESKTOP
+========================== */
+
+@media (min-width:993px){
+
+    .nav-container{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .nav-links{
+        display:flex;
+        gap:35px;
+    }
+
+    .desktop-btn{
+        display:inline-flex;
+        margin-left:30px;
+    }
+
+    .menu-toggle{
+        display:none;
+    }
+
+}
+
+
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width:992px){
+
+.hero-container,
+.contact-container,
+.footer-container{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.desktop-btn{
+    display:none;
+}
+
+.menu-toggle{
+    display:block;
+    font-size:28px;
+    cursor:pointer;
+    color:#2563EB;
+}
+
+.nav-links{
+    position:absolute;
+    top:85px;
+    left:0;
+    width:100%;
+    background:#fff;
+    display:none;
+    flex-direction:column;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+.nav-links li{
+    margin:12px 0;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero-image{
+    margin-top:50px;
+}
+
+}
+
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:768px){
+
+.container{
+    width:90%;
+}
+
+.hero h1{
+    font-size:2.4rem;
+}
+
+.section-title h2{
+    font-size:2rem;
+}
+
+.services-grid,
+.process-grid,
+.pricing-grid,
+.testimonial-grid,
+.why-grid{
+    grid-template-columns:1fr;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.btn,
+.btn-secondary{
+    width:100%;
+    text-align:center;
+}
+
+/* Hero Cards */
+
+.hero-image{
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    margin-top:40px;
+}
+
+.floating-card{
+    position:static !important;
+    width:220px;
+    margin:0 auto;
+}
+
+/* Trusted Section */
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+}
+
+.stat-box{
+    width:100%;
+    padding:20px 10px;
+}
+
+.stat-box h3{
+    font-size:24px;
+}
+
+.stat-box p{
+    font-size:14px;
+}
+}
