@@ -703,10 +703,3 @@ footer{
 .stat-box:hover{
     transform:translateY(-10px);
 }
-a:focus,
-button:focus,
-input:focus,
-textarea:focus{
-    outline:3px solid #2563EB;
-    outline-offset:3px;
-}
