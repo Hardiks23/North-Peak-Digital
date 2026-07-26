@@ -112,8 +112,17 @@ section{
     font-weight:600;
 }
 
-.nav-links a:hover{
+.nav-links a{
+    color:var(--dark);
+    font-weight:600;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus{
     color:var(--primary);
+    text-decoration:underline;
 }
 
 .btn{
