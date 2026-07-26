@@ -288,7 +288,7 @@ animation:float 6s ease-in-out infinite;
 
 .trusted-subtitle{
     text-align:center;
-    color:#64748B;
+    color:#475569;
     margin-bottom:50px;
 }
 
@@ -318,7 +318,7 @@ animation:float 6s ease-in-out infinite;
 }
 
 .stat-box p{
-    color:#64748B;
+    color:#475569;
 }
 
 /* ===========================
@@ -338,7 +338,7 @@ animation:float 6s ease-in-out infinite;
 .section-title p{
     max-width:700px;
     margin:auto;
-    color:#64748B;
+    color:#475569;
 }
 
 /* ===========================
@@ -379,7 +379,7 @@ animation:float 6s ease-in-out infinite;
 }
 
 .service-card p{
-    color:#64748B;
+    color:#475569;
 }
 
 /* ===========================
@@ -430,7 +430,7 @@ animation:float 6s ease-in-out infinite;
 }
 
 .process-card p{
-    color:#64748B;
+    color:#475569;
 }
 /* ==========================
    TESTIMONIALS
@@ -464,7 +464,7 @@ animation:float 6s ease-in-out infinite;
 }
 
 .testimonial-card p{
-    color:#64748B;
+    color:#475569;
     line-height:1.8;
     margin-bottom:25px;
 }
@@ -541,7 +541,7 @@ animation:float 6s ease-in-out infinite;
 
 .pricing-card ul li{
     margin:15px 0;
-    color:#64748B;
+    color:#475569;
 }
 
 .pricing-card ul li i{
@@ -583,7 +583,7 @@ animation:float 6s ease-in-out infinite;
     display:none;
     padding:20px;
     background:#fff;
-    color:#64748B;
+    color:#475569;
     line-height:1.7;
 }
 
